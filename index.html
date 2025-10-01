@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    
+<!-- 1. HTML Setup:
+Create a basic HTML structure with the following elements:
+● The question text.
+● Four buttons for answer choices.
+● An element to display feedback after an answer is selected.
+● A “Next Question” button to move onto the next question. -->
+
+<header>
+    <h1>Quiz</h1>
+</header>
+
+<p id="question1-text" class="question"></p>
+
+<div id="choices" class="choices">
+
+    <button id="answer1" class="choice" index="0">A</button>
+    <button id="answer2" class="choice" index="1">B</button>
+    <button id="answer3" class="choice" index="2">C</button>
+    <button id="answer4" class="choice" index="3">D</button>
+
+</div>
+
+<p id="feedback">Your answer is correct</p>
+
+
+<div>
+    <button id="next-button">Next Question</button>
+</div>
+
+</body>
+</html>
